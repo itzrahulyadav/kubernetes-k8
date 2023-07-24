@@ -1,0 +1,8 @@
+create cluster 
+
+eksctl create cluster --name my-cluster --nodegroup-name ng-default --node-type t3.micro --nodes 2 --region ap-south-1
+
+install kubectl using aws documentation
+
+
+
